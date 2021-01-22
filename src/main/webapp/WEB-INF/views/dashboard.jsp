@@ -51,7 +51,7 @@
 							<td>${task.getTaskSeverity()}</td>
 							<td><a class="btn btn-warning"
 								href="/task/${task.getId()}/update-task/${task.getUser().getUserEmail()}"
-								role="button">Edit Task</a></td>
+								role="button">Update Task</a></td>
 							<td><a class="btn btn-danger"
 								href="/task/${task.getId()}/delete-task/${task.getUser().getUserEmail()}"
 								role="button">Delete Task</a></td>
